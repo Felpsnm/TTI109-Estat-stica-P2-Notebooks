@@ -1,0 +1,54 @@
+AULAS TEORICAS
+
+aula 15: teste de hipótese , hipótese nula ou alternativa , estabelecendo as hipóteses nula e alternativa , tipos de erros e nível de significância ,
+testes estatísticos e valores p , teste unilateal à esquerda , unilateral à direita e bilateral.
+
+aula 16: usando valores p para tomar decisões , regra de decisão utilizando valor p , encontrando o valor de p , usando valores p em um teste z ,
+teste z para uma média µ , lidando com valores p em um teste z para uma média μ (σ conhecido) , teste de hipótese usando um valor p.
+
+aula 17: regiões de rejeição e valores críticos , calculando valores críticos na distribuição normal padrão , usando regiões de rejeição para um teste z , 
+usando valores p em um teste z.
+
+aula 18: valores críticos em uma distribuição t , teste t para uma média μ , teste t para uma média μ (σ desconhecido).
+
+aula 19: valores críticos para um teste qui-quadrado , como encontrar os valores críticos para um teste qui-quadrado , passo a passo do teste.
+
+aula 20: amostras independentes e dependentes , testes com 2 amostras , teste z com duas amostras , teste t com duas amostras , 
+fluxograma de decisão : teste com duas amostras.
+
+aula 21: teste t para diferença entre médias , teste de hipótese usando duas amostras dependentes , condições para o uso do test t com duas amostras dependentes.
+
+aula 22: visão geral da correlação , coeficiente de correlação linear , coeficiente de correlação populacional , teste t para o coeficiente de correlação ,
+correlação e causalidade.
+
+aula 23: retas de regressão  , prevendo valores usando equações de regressão.
+
+NOTEBOOKS PROFESSOR
+
+ntbk 16 : costruindo uma função para o teste de hipótese da média (σ conhecido) , teste unilateral à esquerda , emulando um conjunto de dados para uso da função ztest (1) ,
+teste unilateral à direita , emulando um conjunto de dados para uso da função ztest (2) , teste bilateral , emulando um conjunto de dados para uso da função ztest (3) , 
+usando conjunto de dados (teste de afirmação) , usando conjunto de dados (teste de afirmação/estimativa). 
+
+ntbk 17 : função teste_z decide sobre a validade da hipótese nula ao comparar o p-valor da estatística de teste padronizada com o nível de significância do teste ,
+função teste_z_alt decide sobre a validade da hipótese nula ao verificar se a estatística de teste padronizada está contida na região de rejeição do teste.
+
+ntbk 18: valores críticos em um distribuição t (como encontrar os valores crítico tzero para diferentes tipos de testes) , função teste_t decide sobre a validade
+da hipótese nula ao comparar o p-valor da estatística de teste padronizada com o nível de significância do teste.
+
+ntbk 19: valores críticos em uma distribuição x elevado a 2 , função teste_chi2 decide a validade da hipótese nula ao verificar se os valores críticos qui-quadrado pertecem
+à região de rejeição.
+
+ntbk 20: função teste_z2 para o teste de hipótese da diferença entre médias (essa função assume que as amostras são independetes em que os σ1 e σ2 são conhecidos),
+exs de testes com duas amostras , função ztest do python (teste z), função que assume que σ1 e σ2 são desconhecidos e decide a validade da hipótese nula acerca da diferença entre as 
+médias , ttest_ind do python (teste t).
+
+ntbk 21: exs utilizando o test t com amostras dependentes.
+
+ntbk 22: correlação , exs com criação de um diagrama de dispersão e definição do tipo de correlação , coeficiente de correlação linear , 
+exs com calculo do coeficiente de correlação e interpretação do resultado no contexto dos dados , teste t para coeficiente de correlação populacional p ,
+exs testando a significância do coeficiente de correlação.
+
+ntbk 23: regressão linear , equação de uma reta de regressão , exs determinar as equações da reta de regressão para os dados , ex 4 determinar a equação e usar a
+reta para prever um valor
+
+ 
